@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hambaga {
+  background-color: #7c7c7c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+}
+
+.hambaga #menu-icon {
+  margin-right: 20px;
+  color: red;
+  cursor: pointer;
+  -webkit-transition: color ease-in-out 150ms;
+  transition: color ease-in-out 150ms;
+}
+
+.hambaga #menu-icon:hover {
+  color: #ff7707;
+}
+
+.hambaga #menu-icon:active {
+  color: #d2ff0a;
+}
+
+.menu_open {
+  position: fixed;
+  right: 0%;
+  opacity: 0;
+  -webkit-transition: opacity ease-in-out 150ms, max-height ease-in-out 300ms;
+  transition: opacity ease-in-out 150ms, max-height ease-in-out 300ms;
+  max-height: 0;
+}
+
+.menu_open ul {
+  margin: 2px 2px 0 0;
+  border-radius: 2px;
+  background-color: #39036d;
+  color: #0373a7;
+  position: relative;
+  list-style: none;
+  width: 200px;
+}
+
+.menu_open ul li {
+  padding: 5px 0 5px 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+
+.menu_open ul li:hover {
+  background-color: #d80041;
+  font-weight: 700;
+  color: aqua;
+}
+
+section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  background-color: aqua;
+  width: 100%;
+}
+
+section div h1 {
+  color: green;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
